@@ -1,5 +1,3 @@
-from datetime import datetime
-import pandas as pd
 from Pred_File_Data_Validation.predFileDataValidation import pred_validation_functions 
 from Logs_Writer import logger
 
@@ -34,14 +32,18 @@ class pred_data_validation_and_insertion:   ### This class consists steps to val
 
 from Predict_from_model import prediction 
 
-### Testing ###
-uploaded_file_name = 'InputFile.csv'
-file_path = 'Pred_Uploaded_File/InputFile.csv'
-pred_valid_insert = pred_data_validation_and_insertion(file_path ,uploaded_file_name)
-pred_valid_insert.pred_data_validate_and_insert()
-pred = prediction(uploaded_file_name)
-pred.predictionFromModel() # Will create prediction files for each cluster
-pred.save_main_result()    # Concates the predicted files and create a 'Predicted_results.csv' in PREDICTIONs
+
+### Main Testing ###
+
+# uploaded_file_name = 'InputFile.csv'
+# file_path = 'Pred_Uploaded_File/InputFile.csv'
+# pred_valid_insert = pred_data_validation_and_insertion(file_path ,uploaded_file_name)
+# pred_valid_insert.pred_data_validate_and_insert()
+# pred = prediction(uploaded_file_name)
+# pred.predictionFromModel() # Will create prediction files for each cluster
+# pred.save_pred_results('Pred_Uploaded_File/InputFile.csv')    
+# # Saves the result from the predicted files to the uploaded file and save it by as 'Predicted_results.csv' in PREDICTIONs
+                                                            
 
 
 

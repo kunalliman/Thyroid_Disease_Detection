@@ -56,27 +56,30 @@ class prediction:
                 self.log_writer.log(self.file_object, f'Finding model for cluster {c} with the help of model_for_cluster function from.')
                 model = finder.model_for_cluster(cluster= 'c')    
                 predictions = model.predict(cluster_df)
-                predicted_classes = encoder.inverse_transform(predictions)  # Decoding predictions
+                predicted_classes = encoder.inverse_transform(predictions)  # Decoding predictions save the indexes to match the records
                 cluster_df['Predicted_Class'] = predicted_classes
-                cluster_df.to_csv(f'PREDICTIONs/Cluster_{c}_predictions.csv', index=False, header=True)
+                                                           
+                cluster_df.index.name = 'patient_id'    # Save the indexes as patient_id to match the records with uploaded file
+                cluster_df.to_csv(f'PREDICTIONs/Cluster_{c}_predictions.csv',index=True, header=True) 
+    
             self.log_writer.log(self.file_object, 'Predictions for each custer is stored in "PREDICTIONs".')
 
         except Exception as e:
             raise e
         return print('Code Completed!')
     
-    def save_main_result(self):
-        result_df = pd.DataFrame()
+    def save_pred_results(self, uploaded_file_path):
+        uploaded_df = pd.read_csv(uploaded_file_path)
         predictions_directory = 'PREDICTIONs'  # Directory where prediction files are located
         
         for pred_file in os.listdir(predictions_directory):
             pred_file_path = os.path.join(predictions_directory, pred_file)
             
             if pred_file.endswith('predictions.csv'):
-                pred_df = pd.read_csv(pred_file_path)  # Load the prediction data from the file
-                result_df = pd.concat([result_df, pred_df], axis=1)
+                pred_df = pd.read_csv(pred_file_path, index_col='patient_id')  # set the indexes to 'patient_id' match the records
+                uploaded_df.loc[pred_df.index, 'Predicted_Results'] = pred_df['Predicted_Class']
 
-        result_df.to_csv('PREDICTIONs/Predicted_results.csv', index=False)  # Save the concatenated DataFrame to a CSV file
+        uploaded_df.to_csv('PREDICTIONs/Predicted_Results.csv', index=False)  # Save the concatenated DataFrame to a CSV file
 
 
         

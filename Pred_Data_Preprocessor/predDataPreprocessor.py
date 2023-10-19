@@ -1,11 +1,8 @@
 # Importing the necessary libraries
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import LabelEncoder
 import pickle
 from sklearn.impute import KNNImputer
-from sklearn.model_selection import train_test_split
-from imblearn.over_sampling import RandomOverSampler 
 from Logs_Writer.logger import App_Logger
 
 class preprocessor:

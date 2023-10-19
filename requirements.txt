@@ -1,9 +1,13 @@
 numpy 
 pandas
 matplotlib
-# logging == 0.4.9.6
+logging
 pickle
 scikit-learn
 kneed
 imblearn
+json
+re
+os
+flask
 -e .

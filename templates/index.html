@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thyroid prediction page</title>
+    <style>
+        body {
+            text-align: center;
+            background-image: url('{{ url_for("static", filename="robo_hand_predicting.jpg") }}');
+            background-size: cover;
+            background-position: center;
+            color: rgb(0, 0, 0);
+            font-family: 'Your Technology Font', sans-serif;
+        }
+        h1 {
+            text-align: left;
+            font-size: 51px;
+            color: rgb(255, 255, 255);
+            /* text-shadow: 2px 2px #0ff; */
+        }
+        .container {
+            align-items: center;
+            margin: 0 auto;
+            background: rgba(73, 161, 191, 0.8);
+            padding: 10px;
+            width: 500px;
+            border-radius: 10px;
+        }
+        input[type="file"] {
+            display: block;
+            margin: 0 auto;
+            font-size: 18px;
+            padding: 10px;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 5px;
+        }
+        
+        button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            font-size: 21px;
+            width: 114px;
+            background-color: rgb(70, 70, 170);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Thyroid Prediction</h1>
+    </header>
+    <div class="container">
+        <img src="{{ url_for('static', filename='thyroid_gland_img.jpg') }}" alt="Thyroid Gland" width="400">
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" id="input_file" name="file">
+            <button id="predictButton" type="button">Predict</button>
+        </form>
+        <a id="downloadLink" style="display: none;" download="predicted_file.csv"> Download Predicted File</a>
+    </div>
+    <div id="resultDisplay"></div>
+
+        <script>
+            document.getElementById("predictButton").addEventListener("click", function () {
+            const input_file = document.getElementById("input_file");
+            const file = input_file.files[0];
+            const formData = new FormData();
+            formData.append("file", file);
+        
+            fetch("/predict", {
+                method: "POST",
+                body: formData,
+            }) 
+            .then(response => response.text())
+            .then(data => {
+                    if (data.startsWith("Error:")) {
+                        // Display the error message on the web page
+                        document.getElementById("resultDisplay").innerHTML = `<p style="color: red;">${data}</p>`;
+                    } else {
+                        // Parse the JSON response to get the download link
+                        const response = JSON.parse(data);
+                        const downloadLink = response.DownloadLink;
+
+                        // Create a download link on the web page
+                        const downloadButton = document.createElement("a");
+                        downloadButton.href = downloadLink;
+                        downloadButton.textContent = "Download Predicted File";
+                        downloadButton.setAttribute("download", "predicted_file.csv");
+                        document.getElementById("resultDisplay").innerHTML = "";  // Clear previous content
+                        document.getElementById("resultDisplay").appendChild(downloadButton);
+                    }
+                })
+              .catch(error => {
+                  // Handle unexpected errors
+                  document.getElementById("resultDisplay").innerHTML = `An error occurred: ${error}`;
+              });
+          });
+
+        </script>
+</body>
+</html>
