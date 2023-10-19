@@ -1,0 +1,35 @@
+2023-10-19/21:38:48		Unwanted columns have been droped.
+2023-10-19/21:38:48		All missing values('?') are replaced into Null values(np.nan)
+2023-10-19/21:38:48		Categorical columns have been Label Encoded
+2023-10-19/21:38:48		Entered the impute_missing_values method of the Preprocessor class
+2023-10-19/21:38:48		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-10-19/21:40:58		Unwanted columns have been droped.
+2023-10-19/21:40:58		All missing values('?') are replaced into Null values(np.nan)
+2023-10-19/21:40:58		Categorical columns have been Label Encoded
+2023-10-19/21:40:58		Entered the impute_missing_values method of the Preprocessor class
+2023-10-19/21:40:58		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-10-19/21:43:16		Unwanted columns have been droped.
+2023-10-19/21:43:16		All missing values('?') are replaced into Null values(np.nan)
+2023-10-19/21:43:16		Categorical columns have been Label Encoded
+2023-10-19/21:43:16		Entered the impute_missing_values method of the Preprocessor class
+2023-10-19/21:43:16		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-10-19/22:16:32		Unwanted columns have been droped.
+2023-10-19/22:16:32		All missing values('?') are replaced into Null values(np.nan)
+2023-10-19/22:16:32		Categorical columns have been Label Encoded
+2023-10-19/22:16:32		Entered the impute_missing_values method of the Preprocessor class
+2023-10-19/22:16:32		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-10-19/22:17:49		Unwanted columns have been droped.
+2023-10-19/22:17:49		All missing values('?') are replaced into Null values(np.nan)
+2023-10-19/22:17:49		Categorical columns have been Label Encoded
+2023-10-19/22:17:49		Entered the impute_missing_values method of the Preprocessor class
+2023-10-19/22:17:49		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-10-19/22:20:29		Unwanted columns have been droped.
+2023-10-19/22:20:29		All missing values('?') are replaced into Null values(np.nan)
+2023-10-19/22:20:29		Categorical columns have been Label Encoded
+2023-10-19/22:20:29		Entered the impute_missing_values method of the Preprocessor class
+2023-10-19/22:20:29		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-10-19/22:30:32		Unwanted columns have been droped.
+2023-10-19/22:30:32		All missing values('?') are replaced into Null values(np.nan)
+2023-10-19/22:30:32		Categorical columns have been Label Encoded
+2023-10-19/22:30:32		Entered the impute_missing_values method of the Preprocessor class
+2023-10-19/22:30:32		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class

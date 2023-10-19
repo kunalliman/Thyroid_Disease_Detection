@@ -1,0 +1,53 @@
+2023-10-19/21:38:48		Preprocessing process started.
+2023-10-19/21:38:48		Preprocessing process completed.
+2023-10-19/21:38:48		Clustering process started.
+2023-10-19/21:40:58		Preprocessing process started.
+2023-10-19/21:40:58		Preprocessing process completed.
+2023-10-19/21:40:58		Clustering process started.
+2023-10-19/21:40:58		Clusters are formed in predicyion data and encoder has loaded for decoding the predictions.
+2023-10-19/21:40:58		Prediction started for each cluster.
+2023-10-19/21:40:58		Finding model for cluster 2 with the help of model_for_cluster function from.
+2023-10-19/21:43:16		Preprocessing process started.
+2023-10-19/21:43:16		Preprocessing process completed.
+2023-10-19/21:43:16		Clustering process started.
+2023-10-19/21:43:16		Clusters are formed in predicyion data and encoder has loaded for decoding the predictions.
+2023-10-19/21:43:16		Prediction started for each cluster.
+2023-10-19/21:43:16		Finding model for cluster 2 with the help of model_for_cluster function from.
+2023-10-19/21:43:16		Finding model for cluster 1 with the help of model_for_cluster function from.
+2023-10-19/21:43:16		Finding model for cluster 0 with the help of model_for_cluster function from.
+2023-10-19/22:16:32		Preprocessing process started.
+2023-10-19/22:16:32		Preprocessing process completed.
+2023-10-19/22:16:32		Clustering process started.
+2023-10-19/22:16:33		Clusters are formed in prediction data and encoder has loaded for decoding the predictions.
+2023-10-19/22:16:33		Prediction started for each cluster.
+2023-10-19/22:16:33		Finding model for cluster 2 with the help of model_for_cluster function from.
+2023-10-19/22:16:33		Finding model for cluster 1 with the help of model_for_cluster function from.
+2023-10-19/22:16:33		Finding model for cluster 0 with the help of model_for_cluster function from.
+2023-10-19/22:16:33		Predictions for each custer is stored in "PREDICTIONs".
+2023-10-19/22:17:49		Preprocessing process started.
+2023-10-19/22:17:49		Preprocessing process completed.
+2023-10-19/22:17:49		Clustering process started.
+2023-10-19/22:17:49		Clusters are formed in prediction data and encoder has loaded for decoding the predictions.
+2023-10-19/22:17:49		Prediction started for each cluster.
+2023-10-19/22:17:49		Finding model for cluster 2 with the help of model_for_cluster function from.
+2023-10-19/22:17:49		Finding model for cluster 1 with the help of model_for_cluster function from.
+2023-10-19/22:17:49		Finding model for cluster 0 with the help of model_for_cluster function from.
+2023-10-19/22:17:49		Predictions for each custer is stored in "PREDICTIONs".
+2023-10-19/22:20:29		Preprocessing process started.
+2023-10-19/22:20:29		Preprocessing process completed.
+2023-10-19/22:20:29		Clustering process started.
+2023-10-19/22:20:29		Clusters are formed in prediction data and encoder has loaded for decoding the predictions.
+2023-10-19/22:20:29		Prediction started for each cluster.
+2023-10-19/22:20:29		Finding model for cluster 2 with the help of model_for_cluster function from.
+2023-10-19/22:20:29		Finding model for cluster 1 with the help of model_for_cluster function from.
+2023-10-19/22:20:29		Finding model for cluster 0 with the help of model_for_cluster function from.
+2023-10-19/22:20:29		Predictions for each custer is stored in "PREDICTIONs".
+2023-10-19/22:30:32		Preprocessing process started.
+2023-10-19/22:30:32		Preprocessing process completed.
+2023-10-19/22:30:32		Clustering process started.
+2023-10-19/22:30:32		Clusters are formed in prediction data and encoder has loaded for decoding the predictions.
+2023-10-19/22:30:32		Prediction started for each cluster.
+2023-10-19/22:30:32		Finding model for cluster 2 with the help of model_for_cluster function from.
+2023-10-19/22:30:32		Finding model for cluster 1 with the help of model_for_cluster function from.
+2023-10-19/22:30:32		Finding model for cluster 0 with the help of model_for_cluster function from.
+2023-10-19/22:30:32		Predictions for each custer is stored in "PREDICTIONs".

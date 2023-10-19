@@ -1,3 +1,9 @@
 numpy 
 pandas
+matplotlib
+# logging == 0.4.9.6
+pickle
+scikit-learn
+kneed
+imblearn
 -e .
