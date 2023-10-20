@@ -23,7 +23,7 @@ The goal of this project is to create a classification model using machine learn
 7. **Prediction:** Making predictions using the saved models.
 
 All the training code is located in the src directory and can be executed by running the __main__.py file.
-[My Document](src\__main__.py)
+[__main__.py File](__main__.py)
 
 ## Data Description and EDA
 
