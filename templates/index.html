@@ -61,9 +61,10 @@
             <input type="file" id="input_file" name="file">
             <button id="predictButton" type="button">Predict</button>
         </form>
-        <a id="downloadLink" style="display: none;" download="predicted_file.csv"> Download Predicted File</a>
+        <a id="downloadLink" style="display: none; font-size: 16px; font-weight: bold; color: #008B8B;" download="predicted_file.csv">Download Predicted File</a>
     </div>
     <div id="resultDisplay"></div>
+    <br><br><br>
 
         <script>
             document.getElementById("predictButton").addEventListener("click", function () {
@@ -91,6 +92,9 @@
                         downloadButton.href = downloadLink;
                         downloadButton.textContent = "Download Predicted File";
                         downloadButton.setAttribute("download", "predicted_file.csv");
+                        downloadButton.style.fontSize = "21px";  // Set the font size
+                        downloadButton.style.fontWeight = "bold";  // Set font weight to bold
+                        downloadButton.style.color = "#008B8B";  // Set the text color to dark cyan blue
                         document.getElementById("resultDisplay").innerHTML = "";  // Clear previous content
                         document.getElementById("resultDisplay").appendChild(downloadButton);
                     }

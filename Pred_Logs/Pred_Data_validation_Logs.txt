@@ -46,3 +46,29 @@
 2023-10-20/01:19:41		Uploaded file InputFile - Copy.csv has valid file type.
 2023-10-20/01:34:13		Validating File Type with regex '\.csv$' 
 2023-10-20/01:34:13		Uploaded file InputFile.csv has valid file type.
+2023-10-20/10:27:59		Validating File Type with regex '\.csv$' 
+2023-10-20/10:27:59		Uploaded file InputFile.csv has valid file type.
+2023-10-20/15:18:00		Validating File Type with regex '\.csv$' 
+2023-10-20/15:18:00		Uploaded file InputFile.csv has valid file type.
+2023-10-20/15:21:26		Validating File Type with regex '\.csv$' 
+2023-10-20/15:21:26		Uploaded file InputFile.csv has valid file type.
+2023-10-20/15:21:55		Validating File Type with regex '\.csv$' 
+2023-10-20/15:21:55		Uploaded file InputFile - Copy.csv has valid file type.
+2023-10-20/15:23:58		Validating File Type with regex '\.csv$' 
+2023-10-20/15:23:58		Uploaded file InputFile.csv has valid file type.
+2023-10-20/15:24:17		Validating File Type with regex '\.csv$' 
+2023-10-20/15:24:17		Uploaded file InputFile.csv has valid file type.
+2023-10-20/15:24:57		Validating File Type with regex '\.csv$' 
+2023-10-20/15:24:57		Uploaded file InputFile.csv has valid file type.
+2023-10-20/15:24:58		Validating File Type with regex '\.csv$' 
+2023-10-20/15:24:58		Uploaded file InputFile.csv has valid file type.
+2023-10-20/15:25:05		Validating File Type with regex '\.csv$' 
+2023-10-20/15:25:05		Uploaded file InputFile.csv has valid file type.
+2023-10-20/15:27:31		Validating File Type with regex '\.csv$' 
+2023-10-20/15:27:31		Uploaded file InputFile.csv has valid file type.
+2023-10-20/15:37:32		Validating File Type with regex '\.csv$' 
+2023-10-20/15:37:32		Uploaded file InputFile.csv has valid file type.
+2023-10-20/15:47:51		Validating File Type with regex '\.csv$' 
+2023-10-20/15:47:51		Uploaded file InputFile.csv has valid file type.
+2023-10-20/15:50:32		Validating File Type with regex '\.csv$' 
+2023-10-20/15:50:32		Uploaded file InputFile.csv has valid file type.

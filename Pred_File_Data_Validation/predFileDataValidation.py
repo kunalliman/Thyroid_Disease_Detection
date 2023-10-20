@@ -63,7 +63,6 @@ class pred_validation_functions:
             if df.shape[1] == NumberofColumns:
                 if ( df.columns == list(column_names.keys()) ).all():
                     df.to_csv("Pred_Validated_File/" + file_name , index=None, header=True)
-                    ### self.clean_directory(directory_path='Pred_Uploaded_File') ### Saving space
                 else:pass
                     # self.log_writer.log(self.file, f"Column names do not match the expected structure. Uploaded file column list: {list(column_names.keys())}")
             else:pass
@@ -83,7 +82,7 @@ class pred_validation_functions:
                 os.remove(directory_path + '\\' + file)
                 # self.log_writer.log(self.file, f'File {file} removed from directory {directory_path}')
         except OSError as e:
-            # self.log_writer.log(self.file, f'Error Occured while Cleaning Files from directory: {e}')
+            self.log_writer.log(self.file, f'Error Occured while Cleaning Files from directory: {e}')
             raise e
         
 
