@@ -23,10 +23,13 @@ The goal of this project is to create a classification model using machine learn
 7. **Prediction:** Making predictions using the saved models.
 
 All the training code is located in the src directory and can be executed by running the __main__.py file.
+[Main File](src/__main__.py)
 
 ## Data Description and EDA
 
 For a detailed data description and exploratory data analysis (EDA), please refer to the PowerPoint (PPT) and Jupyter Notebook files available in the "notebook_files_&_PPT" directory.
+[EDA](notebook_files_&_PPT)
+
 
 ### Predicting on Live Data with a User Interface (UI)
 
@@ -37,12 +40,10 @@ For a detailed data description and exploratory data analysis (EDA), please refe
 5. **Predicting by Saved Models for Each Cluster:** Using the saved models to make predictions.
 6. **Return the Uploaded File with Prediction Results to Download:** Providing the user with the option to download the file with prediction results.
 
-All the code can be tested using the test code written at the bottom of Pred_valid_insert.py or by running app.py for accessing it via a web page.
+All the code can be tested using the test code written at the bottom of Pred_valid_insert.py. Note: The code is commented out. [Test Code](Pred_valid_insert.py)
+Or you can run the app.py to access a web page.  [Flask App](app.py) 
 
-<video width="320" height="240" controls>
-  <source src="notebook_files_&_PPT\demo_video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Video](https://github.com/kunalliman/Thyroid_Level_Prediction/blob/main/notebook_files_%26_PPT/Web_img.png)](https://github.com/kunalliman/Thyroid_Level_Prediction/blob/main/notebook_files_%26_PPT/Demo_video.mp4))
 
 ## Conclusion
 
