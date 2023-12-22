@@ -1,6 +1,6 @@
 # Thyroid Level Detection
 
-A solution for transforming the way medical teams detect thyroid diseases, leading to faster and more accurate diagnoses.
+Developing a machine learning model for assisting in the preliminary screening of thyroid diseases based on patient data, aiming to augment medical professionals' diagnostic process.
 
 ## Problem Statement
 
@@ -9,6 +9,12 @@ The goal of this project is to create a classification model using machine learn
 - Accurate predictions of thyroid diseases.
 - Efficiency in detecting the type of thyroid disease.
 - Reducing human error in the diagnostic process.
+
+## Tools Used
+This project utilizes the following tools and technologies:
+- Python
+- Flask
+- HTML
 
 ## Project Flow
 
@@ -43,19 +49,12 @@ For a detailed data description and exploratory data analysis (EDA), please refe
 All the code can be tested using the test code written at the bottom of Pred_valid_insert.py. Note: The code is commented out. [Test Code](Pred_valid_insert.py)
 Or you can run the app.py to access a web page.  [Flask App](app.py) 
 
-[![Video](https://github.com/kunalliman/Thyroid_Level_Prediction/blob/main/notebook_files_%26_PPT/Web_img.png)](https://github.com/kunalliman/Thyroid_Level_Prediction/blob/main/notebook_files_%26_PPT/Demo_video.mp4))
+[![Thyroid Detection User Interface](https://github.com/kunalliman/Thyroid_Level_Prediction/blob/main/notebook_files_%26_PPT/Web_img.png)](https://youtu.be/ZpL6g7fq5Nw)
 
 ## Conclusion
 
-The thyroid disease detection solution empowers medical teams to detect thyroidal diseases in patients based on features, symptoms, and the quantity of 4 hormones. This solution eliminates human error, increases efficiency in diagnosing thyroid diseases, and ensures that necessary medical actions are taken by the concerned authorities.
+While our solution does not replace professional medical diagnosis, it serves as a supportive tool for medical teams, enabling them to conduct initial screenings and prompt further clinical evaluations. This adjustment ensures a responsible use of the model within the medical context.
 
-## Tools Used
-
-This project utilizes the following tools and technologies:
-
-- Python
-- Flask
-- HTML
 
 
 
