@@ -49,6 +49,7 @@ For a detailed data description and exploratory data analysis (EDA), please refe
 All the code can be tested using the test code written at the bottom of Pred_valid_insert.py. Note: The code is commented out. [Test Code](Pred_valid_insert.py)
 Or you can run the app.py to access a web page.  [Flask App](app.py) 
 
+#### Click User Interface image to see the Demo Video.
 [![Thyroid Detection User Interface](https://github.com/kunalliman/Thyroid_Level_Prediction/blob/main/notebook_files_%26_PPT/Web_img.png)](https://youtu.be/ZpL6g7fq5Nw)
 
 ## Conclusion
