@@ -1,6 +1,2 @@
-2023-10-24/23:42:49		Finding Model for Cluster c.
-2023-10-24/23:42:49		RandomForestClassifier(max_depth=2, max_features=None, n_estimators=10) Model for Cluster c is returned.
-2023-10-24/23:42:49		Finding Model for Cluster c.
-2023-10-24/23:42:49		RandomForestClassifier(max_depth=2, max_features=None, n_estimators=10) Model for Cluster c is returned.
-2023-10-24/23:42:49		Finding Model for Cluster c.
-2023-10-24/23:42:49		RandomForestClassifier(max_depth=2, max_features=None, n_estimators=10) Model for Cluster c is returned.
+2024-01-03/20:02:19		Finding Model for Cluster c.
+2024-01-03/20:02:19		RandomForestClassifier(max_depth=2, max_features=None, n_estimators=10) Model for Cluster c is returned.

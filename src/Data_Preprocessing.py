@@ -11,7 +11,7 @@ from Logs_Writer.logger import App_Logger
 
 class Process_train_data:
     def __init__(self):
-        self.file = open("Train_Logs/Data_Preprocessing_Logs.log", 'a+') 
+        self.file = open("Train_Logs/Data_Preprocessing_Logs.log", 'w+') 
         self.log_writer = App_Logger()
 
     def drop_unwanted_features(self,df):

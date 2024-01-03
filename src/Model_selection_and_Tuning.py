@@ -10,7 +10,7 @@ from Logs_Writer.logger import App_Logger
         
 class Model_fitter:
     def __init__(self):
-        self.file = open("Train_Logs/Model_selection_and_Tuning_Logs.log", 'a+') 
+        self.file = open("Train_Logs/Model_selection_and_Tuning_Logs.log", 'w+') 
         self.log_writer = App_Logger() 
 
     def get_best_params_for_random_forest(self,train_x,train_y):

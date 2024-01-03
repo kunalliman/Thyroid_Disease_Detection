@@ -13,7 +13,7 @@ class prediction:
         self.uploaded_file_name = uploaded_file_name
         self.file_path = f'Pred_Valid_File\{uploaded_file_name}'
         self.log_writer = App_Logger()
-        self.file_object = open('Pred_Logs\Prediction_From_Model_Logs.txt', 'a+')
+        self.file_object = open('Pred_Logs\Prediction_From_Model_Logs.txt', 'w+')
 
     def predictionFromModel(self):
         try:

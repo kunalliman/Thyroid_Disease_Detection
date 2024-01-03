@@ -1,4 +1,4 @@
-# Thyroid Level Detection
+# Thyroid Disease Detection
 
 Developing a machine learning model for assisting in the preliminary screening of thyroid diseases based on patient data, aiming to augment medical professionals' diagnostic process.
 
@@ -50,7 +50,7 @@ All the code can be tested using the test code written at the bottom of Pred_val
 Or you can run the app.py to access a web page.  [Flask App](app.py) 
 
 #### Click the User Interface image to see the Demo Video.
-[![Thyroid Detection User Interface](https://github.com/kunalliman/Thyroid_Level_Prediction/blob/main/notebook_files_%26_PPT/Web_img.png)](https://youtu.be/ZpL6g7fq5Nw)
+[![Thyroid Detection User Interface](https://github.com/kunalliman/Thyroid_Disease_Detection/blob/main/notebook_files_%26_PPT/Web_img.png)](https://youtu.be/ZpL6g7fq5Nw)
 
 ## Conclusion
 

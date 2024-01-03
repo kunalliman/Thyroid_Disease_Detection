@@ -8,7 +8,7 @@ from Logs_Writer.logger import App_Logger
 
 class form_clusters:
     def __init__(self):
-        self.file = open("Train_Logs/Clustering_Logs.log", 'a+') 
+        self.file = open("Train_Logs/Clustering_Logs.log", 'w+') 
         self.log_writer = App_Logger()       
 
 

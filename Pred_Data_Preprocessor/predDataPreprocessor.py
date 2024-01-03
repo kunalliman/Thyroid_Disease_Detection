@@ -8,7 +8,7 @@ from Logs_Writer.logger import App_Logger
 class preprocessor:
     def __init__(self):
         self.log_writer = App_Logger()
-        self.file_object = open('Pred_Logs\Pred_Data_Preprocessor_Logs.txt','a+')
+        self.file_object = open('Pred_Logs\Pred_Data_Preprocessor_Logs.txt','w+')
 
     def drop_unwanted_cols(self, df):
         # Now let's remove the unwanted columns as discussed in the EDA part in ipynb file.

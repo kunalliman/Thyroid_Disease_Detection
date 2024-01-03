@@ -1,7 +1,7 @@
 numpy 
 pandas
 matplotlib
-logging
+# logging
 pickle
 scikit-learn
 kneed
@@ -9,5 +9,5 @@ imblearn
 json
 re
 os
-flask
+Flask
 -e .

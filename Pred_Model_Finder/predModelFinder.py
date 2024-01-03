@@ -6,7 +6,7 @@ from Logs_Writer.logger import App_Logger
 class modelFinder():
     def __init__(self):
         self.log_writer = App_Logger()
-        self.file_object = open('Pred_Logs\Pred_Model_Finder_Logs.txt','a+')        
+        self.file_object = open('Pred_Logs\Pred_Model_Finder_Logs.txt','w+')        
 
     def model_for_cluster(self, cluster):
         self.log_writer.log(self.file_object, f'Finding Model for Cluster {cluster}.')

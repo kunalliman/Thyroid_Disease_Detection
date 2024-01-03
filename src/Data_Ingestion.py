@@ -5,7 +5,7 @@ from Logs_Writer.logger import App_Logger
 
 class Ingest_train_data:
     def __init__(self):
-        self.file = open("Train_Logs/Data_Ingestion_Logs.log", 'a+') 
+        self.file = open("Train_Logs/Data_Ingestion_Logs.log", 'w+') 
         self.log_writer = App_Logger() 
 
     def data_validation(self, csv_file_path):

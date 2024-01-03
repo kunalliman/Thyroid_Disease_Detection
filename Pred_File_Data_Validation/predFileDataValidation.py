@@ -12,7 +12,7 @@ class pred_validation_functions:
         self.uploaded_file_name = uploaded_file_name
         self.schema_path = 'schema_prediction.json'
         self.NumberofColumns, self.column_names = self.load_schema_values()
-        self.file = open("Pred_Logs/Pred_Data_validation_Logs.txt", 'a+') 
+        self.file = open("Pred_Logs/Pred_Data_validation_Logs.txt", 'w+') 
         self.log_writer = App_Logger()   
 
     def validateFileType(self):
