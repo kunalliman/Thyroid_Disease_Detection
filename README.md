@@ -52,9 +52,31 @@ Or you can run the app.py to access a web page.  [Flask App](app.py)
 #### Click the User Interface image to see the Demo Video.
 [![Thyroid Detection User Interface](https://github.com/kunalliman/Thyroid_Disease_Detection/blob/main/notebook_files_%26_PPT/Web_img.png)](https://youtu.be/ZpL6g7fq5Nw)
 
+
+## Project Documents
+
+- HLD: https://github.com/kunalliman/Thyroid_Disease_Detection/blob/main/Docs/TDD_HLD_V1.0.pdf
+
+- LLD: https://github.com/kunalliman/Thyroid_Disease_Detection/blob/main/Docs/TDD_LLD_V1.0.pdf
+
+- Architecture: https://github.com/kunalliman/Thyroid_Disease_Detection/blob/main/Docs/TDD_Architecture_V1.0.pdf
+
+- Wireframe: https://github.com/kunalliman/Thyroid_Disease_Detection/blob/main/Docs/TDD_Wireframe_V1.0.pdf
+
+- Detailed Project Report: https://github.com/kunalliman/Thyroid_Disease_Detection/blob/main/Docs/TDD_DPR.pdf
+
 ## Conclusion
 
 While our solution does not replace professional medical diagnosis, it serves as a supportive tool for medical teams, enabling them to conduct initial screenings and prompt further clinical evaluations. This adjustment ensures a responsible use of the model within the medical context.
+
+
+## Author
+
+Kunal Liman: https://www.linkedin.com/in/kunal-liman-497479235/ 
+
+## Help Me Improve
+
+Hello Reader if you find any bug please consider raising issue I will address them asap.
 
 
 
