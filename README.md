@@ -72,7 +72,7 @@ While our solution does not replace professional medical diagnosis, it serves as
 
 ## Author
 
-Kunal Liman: https://www.linkedin.com/in/kunal-liman-497479235/ 
+Kunal Liman: https://www.linkedin.com/in/kunal-liman/ 
 
 ## Help Me Improve
 
